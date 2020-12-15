@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, {useState, useEffect} from 'react';
 import { Link } from 'react-router-dom';
 import './Navbar.css';
 import { Button } from './Button';
@@ -18,34 +18,53 @@ function Navbar() {
     }
   };
 
+  useEffect (() => {
+    showButton();
+  }, []);
+
   return (
     <React.Fragment>
       <nav className="navbar">
         <div className="navbar-container">
-        <Link to="/" className="navbar-logo">
+        <Link to="/" className="navbar-logo"
+        onClick={closeMobileMenu}>
           GVH
         </Link>
-          <div className="menu-icon" onClick={handleClick}>
+
+          <div className='menu-icon' onClick={handleClick}>
             <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
           </div>
-          <ul classname={click ? 'nav-menu active' : 'nav-menu'}>
+          <ul className={click ? 'nav-menu active' : 'nav-menu'}>
             <li className='nav-item'>
               <Link to='/' className='nav-links' onClick={closeMobileMenu}>
                 Home
               </Link>
             </li>
             <li className='nav-item'>
-              <Link to='/' className='nav-links' onClick={closeMobileMenu}>
+              <Link
+                to='/projects'
+                className='nav-links'
+                onClick={closeMobileMenu}
+              >
                 Projects
               </Link>
             </li>
             <li className='nav-item'>
-              <Link to='/' className='nav-links' onClick={closeMobileMenu}>
+              <Link
+                to='/landing-pages'
+                className='nav-links'
+                onClick={closeMobileMenu}
+              >
                 Landing Pages
               </Link>
             </li>
-            <li className='nav-item'>
-              <Link to='/sign-up' className='nav-links' onClick={closeMobileMenu}>
+
+            <li>
+              <Link
+                to='/sign-up'
+                className='nav-links-mobile'
+                onClick={closeMobileMenu}
+              >
                 Sign Up
               </Link>
             </li>
