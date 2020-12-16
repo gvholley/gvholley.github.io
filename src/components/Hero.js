@@ -11,13 +11,19 @@ function Hero() {
       <div className="hero-btns">
         <Button className="btns" buttonStyle="btn--outline"
         buttonSize="btn--large">
-        GET STARTED
+        About
         </Button>
 
-        <Button className="btns" buttonStyle="btn--primary"
+        <Button className="btns" buttonStyle="btn--outline"
         buttonSize="btn--large">
-        NEW BUTTON
+        Projects
         </Button>
+
+        <Button className="btns" buttonStyle="btn--outline"
+        buttonSize="btn--large">
+        Landing Pages
+        </Button>
+
       </div>
     </div>
   )
