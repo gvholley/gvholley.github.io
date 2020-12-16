@@ -26,8 +26,8 @@ h1 {
 }
 
 .cards__item {
-  display: grid;
-  grid-template-columns: 1fr;
+  display: flex;
+  flex: 1;
   margin: 0 1rem;
   border-radius: 10px;
 }
