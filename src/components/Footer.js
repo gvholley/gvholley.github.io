@@ -10,13 +10,7 @@ function Footer() {
         <p className='footer-subscription-heading'>
           Contact Me
         </p>
-      </section>
-
-      <section class='social-media'>
-        <div class='social-media-wrap'>
-
-
-          <div class='social-icons'>
+        <div class='social-icons'>
 
             <a href="mailto:gvholley@gmail.com"
               class='social-icon-link'
@@ -43,6 +37,13 @@ function Footer() {
               <i class='fab fa-linkedin' />
             </a>
           </div>
+      </section>
+
+      <section class='social-media'>
+        <div class='social-media-wrap'>
+
+
+
         </div>
       </section>
     </div>
