@@ -28,7 +28,7 @@ function Navbar() {
         <div className="navbar-container">
         <Link to="/" className="navbar-logo"
         onClick={closeMobileMenu}>
-          GVH
+          GRANT HOLLEY
         </Link>
 
           <div className='menu-icon' onClick={handleClick}>
@@ -69,7 +69,7 @@ function Navbar() {
               </Link>
             </li>
           </ul>
-          {button && <Button buttonStyle='btn--outline'>SIGN UP</Button>}
+
         </div>
       </nav>
 

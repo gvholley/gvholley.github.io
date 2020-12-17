@@ -99,16 +99,8 @@ export const ShowcaseCardDemo = React.memo(function ShowcaseCard() {
   const gap = { xs: 1, sm: 1.5, lg: 2 }
   return (
     <Grid container spacing={4} justify={'center'}>
-      <Grid item xs={12} sm={4} md={3}>
-        <Column className={styles.card} p={{ xs: 0.5, sm: 0.75, lg: 1 }} gap={gap}>
-          <CardHeader />
-          <Item>
-            <Box minHeight={200} bgcolor={'#F4F7FA'} borderRadius={8} />
-          </Item>
-          <BasicProfile />
-        </Column>
-      </Grid>
-      <Grid item xs={12} sm={8} lg={7}>
+
+      <Grid item xs={10}>
         <Row className={styles.card} p={{ xs: 0.5, sm: 0.75, lg: 1 }} gap={gap}>
           <Item grow>
             <Box minHeight={200} bgcolor={'#F4F7FA'} borderRadius={8} />
