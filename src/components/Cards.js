@@ -47,7 +47,7 @@ function Cards() {
 
 
             <CardItem
-            src="images/splashr1.png"
+            src="images/splashr2.png"
             text="Splashr is a simplified Twitter clone with a fun fish theme. Post tweets to the main channel, and view others' profile pages to see a list of only their tweets."
             label='Splashr'
             path='/'
@@ -120,7 +120,7 @@ function Cards() {
 
 
             <CardItem
-            src="images/kakaw1.png"
+            src="images/kakaw2.png"
             text="Kakaw is a Halloween themed Twitter clone based on Michael Hartl's Rails tutorials. Users can make posts, follow users, and save their favorites."
             label='Kakaw'
             path='/'

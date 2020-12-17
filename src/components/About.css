@@ -1,0 +1,15 @@
+.about-me {
+  margin: 0 auto;
+  margin-bottom: 15px;
+}
+
+
+.container {
+  border-bottom: 1px solid black;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  max-width: 1120px;
+  width: 90%;
+  margin: 0 auto;
+  }
