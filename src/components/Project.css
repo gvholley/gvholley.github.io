@@ -1,0 +1,59 @@
+.projects {
+  border-bottom: 2px solid gray;
+  color: #F5F2D0;
+}
+
+
+
+.btn-site {
+    border: solid 2px #4fe8fc;
+    padding: 8px;
+    border-radius: 16px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #4fe8fc;
+    text-decoration: none;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.btn-site:hover {
+  border: solid 2px #fc9c38;
+  padding: 8px;
+  border-radius: 16px;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: #fc9c38;
+  text-decoration: none;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+h2 {
+  color: #fc9c38;
+}
+
+.code {
+  width: 150px;
+  margin-bottom: 10px;
+}
+
+h1 {
+  font-size: 36px;
+  color: #F5F2D0;
+  margin-top: 10px;
+}
+
+.container {
+  background-color: black;
+}
+
+.carousel {
+  color: white;
+}
+
+.proimg {
+  max-width: 250px;
+  display: flex;
+  float: left;
+}

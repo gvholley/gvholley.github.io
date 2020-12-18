@@ -13,7 +13,7 @@ function Cards() {
             <CardItem
             src="images/facilita1.png"
             text="Real time event management"
-            label='FaciLita'
+            projectname='FaciLita'
             path='/'
             />
 

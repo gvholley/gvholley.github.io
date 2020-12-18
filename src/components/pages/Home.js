@@ -6,6 +6,7 @@ import Cards from '../Cards';
 import Footer from '../Footer';
 import ShowcaseCardDemo from '../Matcard';
 import About from '../About';
+import Project from '../Project';
 
 
 function Home() {
@@ -14,7 +15,7 @@ function Home() {
 
       <Navbar />
       <Hero />
-
+      <Project />
       <Cards />
       <Footer />
 
