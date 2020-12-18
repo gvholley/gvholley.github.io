@@ -6,8 +6,11 @@ import './Project.css';
 function Project() {
   return (
     <div className="container">
-      <div className="projects">
-        <h1>Projects</h1>
+      <div className="row projects">
+        <div className="col-5">
+          <img src="images/facilita1.png" className="proimg" alt="fc1"/>
+        </div>
+        <div className="project_description col-7">
           <h2>FaciLita</h2>
           <img src="images/code.png" alt="code" className="code" />
           <p>FaciLita is an event management tool that helps organizers manage questions
@@ -17,7 +20,7 @@ function Project() {
           assisting event organizers in knowing the most important questions to answer.
 
           This project was created over a two-week span in a team of three including myself.</p>
-      <img src="images/facilita1.png" className="proimg" alt="fc1"/>
+        </div>
       </div>
     </div>
 
