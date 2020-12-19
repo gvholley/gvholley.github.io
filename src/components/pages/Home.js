@@ -15,6 +15,7 @@ function Home() {
 
       <Navbar />
       <Hero />
+      <About />
       <Project />
       <Footer />
 

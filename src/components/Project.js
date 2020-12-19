@@ -1,5 +1,4 @@
 import React from 'react';
-import { Carousel } from 'react-bootstrap';
 import { Container } from 'react-bootstrap';
 import './Project.css';
 
@@ -32,7 +31,7 @@ function Project() {
           <h2>Dev-Tavern</h2>
           <img src="images/code.png" alt="code" className="code" />
           <p>Create profile pages for your projects to recruit developers and collaborators.
-          Developers can search for projects that meet their skills, then request to join.</p>
+          Developers can search for projects that meet their skills</p>
         </div>
           <div className="projectbtn">
         <a href="http://dev-tavern.herokuapp.com/" class="btn btn-site">View Site</a>

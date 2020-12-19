@@ -1,15 +1,21 @@
-.about-me {
-  margin: 0 auto;
-  margin-bottom: 15px;
+.about {
+  display: flex;
+  color: white;
+
 }
 
-
-.container {
-  border-bottom: 1px solid black;
+.about_desc {
   display: flex;
-  flex-flow: column;
-  align-items: center;
-  max-width: 1120px;
-  width: 90%;
   margin: 0 auto;
-  }
+  text-align: center;
+}
+
+.about_card {
+  text-align: center;
+}
+
+.card {
+  margin: 20px;
+  font-size: 20px;
+  max-width: 200px;
+}

@@ -45,6 +45,9 @@ h1 {
 
 .container {
   background-color: black;
+  padding-left: 4em;
+  padding-right: 4em;
+  margin: 0px 20px 20px 20px;
 }
 
 .carousel {
