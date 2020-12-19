@@ -13,15 +13,35 @@ function Project() {
         <div className="project_description col-7">
           <h2>FaciLita</h2>
           <img src="images/code.png" alt="code" className="code" />
-          <p>FaciLita is an event management tool that helps organizers manage questions
-          and comments. The app gathers data from users with accounts, allowing them to analyze statistics
-          in order to create more relevant events in the future. Attendees can join events via a code,
-          allowing them to chat, ask questions, and leave feedback. Questions use an upvote system,
-          assisting event organizers in knowing the most important questions to answer.
-
-          This project was created over a two-week span in a team of three including myself.</p>
+          <p>Manage questions and comments during live events. Data is gathered from users, allowing
+          event planners to make informed decisions.</p>
         </div>
+          <div className="projectbtn">
+        <a href="https://faci-lita.herokuapp.com/" class="btn btn-site">View Site</a>
+          </div>
       </div>
+
+
+
+      <div className="row projects">
+        <div className="col-5">
+          <img src="images/facilita1.png" className="proimg" alt="fc1"/>
+        </div>
+        <div className="project_description col-7">
+          <h2>FaciLita</h2>
+          <img src="images/code.png" alt="code" className="code" />
+          <p>Manage questions and comments during live events. Data is gathered from users, allowing
+          event planners to make informed decisions.</p>
+        </div>
+          <div className="projectbtn">
+        <a href="https://faci-lita.herokuapp.com/" class="btn btn-site">View Site</a>
+          </div>
+      </div>
+
+
+
+
+
     </div>
 
 
