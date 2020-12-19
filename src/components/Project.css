@@ -2,7 +2,7 @@
   border-bottom: 2px solid gray;
   color: #F5F2D0;
   padding: 1em;
-  font-size: 20px;
+  font-size: 24px;
 }
 
 .projectbtn {
@@ -24,14 +24,8 @@
 
 .btn-site:hover {
   border: solid 2px #fc9c38;
-  padding: 8px;
-  border-radius: 16px;
-  padding-left: 20px;
-  padding-right: 20px;
   color: #fc9c38;
   text-decoration: none;
-  margin-top: 10px;
-  margin-bottom: 10px;
 }
 
 h2 {
@@ -66,4 +60,8 @@ h1 {
 
 .project_description {
   padding-right: 20px;
+}
+
+.project_text {
+  display: flex;
 }

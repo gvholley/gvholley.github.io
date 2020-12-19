@@ -16,7 +16,6 @@ function Home() {
       <Navbar />
       <Hero />
       <Project />
-      <Cards />
       <Footer />
 
     </React.Fragment>
