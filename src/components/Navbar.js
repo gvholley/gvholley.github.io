@@ -26,10 +26,7 @@ function Navbar() {
     <React.Fragment>
       <nav className="navbar">
         <div className="navbar-container">
-        <Link to="/" className="navbar-logo"
-        onClick={closeMobileMenu}>
-          GRANT HOLLEY
-        </Link>
+        <img src="images/ec1.png" alt="navlogo" className="navbar-logo" onClick={closeMobileMenu}/>
 
           <div className='menu-icon' onClick={handleClick}>
             <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
@@ -37,7 +34,7 @@ function Navbar() {
           <ul className={click ? 'nav-menu active' : 'nav-menu'}>
             <li className='nav-item'>
               <Link to='/' className='nav-links' onClick={closeMobileMenu}>
-                About
+                Skills
               </Link>
             </li>
             <li className='nav-item'>
@@ -55,7 +52,7 @@ function Navbar() {
                 className='nav-links'
                 onClick={closeMobileMenu}
               >
-                Landing Pages
+                Contact
               </Link>
             </li>
 

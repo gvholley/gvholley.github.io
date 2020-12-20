@@ -1,5 +1,5 @@
 .navbar {
-  background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%);
+  background: #060622;
   height: 80px;
   display: flex;
   justify-content: center;
@@ -27,6 +27,7 @@
   font-size: 2rem;
   display: flex;
   align-items: center;
+  max-width: 50px;
 }
 
 .fa-typo3 {
@@ -59,7 +60,7 @@
 }
 
 .nav-links:hover {
-  border-bottom: 4px solid #fff;
+  border-bottom: 4px solid #fc9c38;
   transition: all 0.2s ease-out;
 }
 
