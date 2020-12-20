@@ -8,7 +8,7 @@ import './About.css';
 function About() {
   return (
 <div className="container about-container">
-<h1 className="skill_header">Skills</h1>
+<h1 className="skill_header" id="skills">Skills</h1>
   <div className="row about">
     <div className="col-xs-12 col-sm-6 col-md-3 about_desc">
       <div className="card about_card">

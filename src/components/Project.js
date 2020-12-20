@@ -4,7 +4,7 @@ import './Project.css';
 
 function Project() {
   return (
-    <div className="container">
+    <div className="container" id="project">
       <h1 className="project_header">My Favorite Projects</h1>
       <div className="row projects">
         <div className="col-5">
