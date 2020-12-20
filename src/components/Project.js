@@ -5,7 +5,7 @@ import './Project.css';
 function Project() {
   return (
     <div className="container">
-      <h1>My Favorite Projects</h1>
+      <h1 className="project_header">My Favorite Projects</h1>
       <div className="row projects">
         <div className="col-5">
           <img src="images/facilita1.png" className="proimg" alt="fc1"/>
@@ -61,7 +61,7 @@ function Project() {
           <h2>Watch Later</h2>
           <img src="images/reactcode.png" alt="code" className="code" />
           <p>Search through movies and add them to your watchlist
-          for later. Your choices save, and you can remove movies from your watchlist after viewing.</p>
+          for later. Your choices save, and you can remove movies after viewing them.</p>
         </div>
           <div className="projectbtn">
         <a href="https://gvholley.github.io/watchlater/" class="btn btn-site">View Site</a>

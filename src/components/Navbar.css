@@ -27,7 +27,7 @@
   font-size: 2rem;
   display: flex;
   align-items: center;
-  max-width: 50px;
+  max-width: 75px;
 }
 
 .fa-typo3 {
@@ -57,6 +57,7 @@
   text-decoration: none;
   padding: 0.5rem 1rem;
   height: 100%;
+  font-size: 24px;
 }
 
 .nav-links:hover {

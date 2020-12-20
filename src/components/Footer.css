@@ -18,20 +18,13 @@
   color: #fff;
 }
 
-.footer-subscription > p {
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
-    'Lucida Sans', Arial, sans-serif;
-}
 
 .footer-subscription-heading {
   margin-bottom: 24px;
   font-size: 24px;
 }
 
-.footer-subscription-text {
-  margin-bottom: 24px;
-  font-size: 20px;
-}
+
 
 .footer-input {
   padding: 8px 20px;
@@ -95,7 +88,7 @@
 /* Social Icons */
 .social-icon-link {
   color: #fff;
-  font-size: 24px;
+  font-size: 30px;
 }
 
 .social-media {
@@ -113,18 +106,6 @@
   justify-content: space-between;
   align-items: center;
   width: 240px;
-}
-
-.social-logo {
-  color: #fff;
-  justify-self: start;
-  margin-left: 20px;
-  cursor: pointer;
-  text-decoration: none;
-  font-size: 2rem;
-  display: flex;
-  align-items: center;
-  margin-bottom: 16px;
 }
 
 

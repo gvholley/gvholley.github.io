@@ -1,7 +1,18 @@
 .about {
   display: flex;
   color: white;
+  justify-content: center;
 
+}
+
+.about-container {
+  padding-bottom: 50px;
+}
+
+.skill_header {
+  padding-top: 75px;
+  padding-bottom: 20px;
+  margin: 0 auto;
 }
 
 .about_desc {

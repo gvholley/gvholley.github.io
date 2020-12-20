@@ -26,7 +26,7 @@ function Navbar() {
     <React.Fragment>
       <nav className="navbar">
         <div className="navbar-container">
-        <img src="images/ec1.png" alt="navlogo" className="navbar-logo" onClick={closeMobileMenu}/>
+        <img src="images/koilogo.png" alt="navlogo" className="navbar-logo" onClick={closeMobileMenu}/>
 
           <div className='menu-icon' onClick={handleClick}>
             <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
