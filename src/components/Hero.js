@@ -7,24 +7,9 @@ function Hero() {
   return (
     <div className="hero-container">
       <h1>Grant Holley</h1>
-      <p>Portfolio</p>
-      <div className="hero-btns">
-        <Button className="btns" buttonStyle="btn--outline"
-        buttonSize="btn--large">
-        About
-        </Button>
+      <p>Full Stack Web Developer in Tokyo</p>
+      <p>Let's create something memorable</p>
 
-        <Button className="btns" buttonStyle="btn--outline"
-        buttonSize="btn--large">
-        Projects
-        </Button>
-
-        <Button className="btns" buttonStyle="btn--outline"
-        buttonSize="btn--large">
-        Landing Pages
-        </Button>
-
-      </div>
     </div>
   )
 }
