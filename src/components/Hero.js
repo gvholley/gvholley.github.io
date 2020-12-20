@@ -8,7 +8,7 @@ function Hero() {
     <div className="hero-container">
       <h1>Grant Holley</h1>
       <p>Full Stack Web Developer in Tokyo</p>
-      <p>Let's create something memorable</p>
+
 
     </div>
   )
