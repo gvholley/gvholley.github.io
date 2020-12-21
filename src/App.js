@@ -7,7 +7,7 @@ import Home from './components/pages/Home';
 function App() {
   return (
     <React.Fragment>
-      <Router>
+      <Router basename={process.env.PUBLIC_URL}>
 
         <Switch>
           <Route path='/' exact component = {Home} />
